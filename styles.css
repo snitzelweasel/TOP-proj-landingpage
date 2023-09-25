@@ -47,11 +47,13 @@ a{
 
 .banner-div div,
 .banner-div img{
-  width: 500px;
+  flex: 1;
+  min-width: 200px;
 }
 
 .banner-div img{
   height: 250px;
+  width: 500px;
   object-fit:cover;
 }
 
